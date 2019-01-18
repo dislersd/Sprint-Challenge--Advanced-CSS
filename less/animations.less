@@ -1,0 +1,17 @@
+//Animation Code
+
+// @keyframes bgColorChange {
+//   from {}
+//   to {
+//     background-color: red;
+//   }
+// }
+
+.bgColorChange(@color){ /* wrapper mixin which accepts input parameter */
+  @keyframes bgColorChange {
+    from {}
+    to {
+      background-color: @color;
+    }
+  }
+}

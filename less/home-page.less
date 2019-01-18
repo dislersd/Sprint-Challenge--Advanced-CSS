@@ -116,8 +116,15 @@
         }
 
         &:hover {
-          background-color: @sea-shell;
-          color: @btn-bg-color;
+          // Swaps bg color and text color
+          // background-color: @sea-shell;
+          // color: @btn-bg-color;
+
+          animation-name: bgColorChange;
+          animation-duration: 0.2s;
+          animation-fill-mode: forwards;
+          box-shadow: -2px 2px @river-bend;
+
         }
 
       }
