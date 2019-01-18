@@ -4,6 +4,10 @@
 
   .intro {
 
+      img {
+        border-radius: 1rem;
+      }
+
     h2 {
       padding: 15px;
     }
@@ -58,6 +62,12 @@
       }
 
       .btn {
+        .custom-button(40%, 1rem, @btn-bg-color, @sea-shell);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: @m;
+        border-radius: 1rem;
       }
     }
 

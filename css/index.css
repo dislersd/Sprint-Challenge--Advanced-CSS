@@ -177,7 +177,7 @@ p {
 .nav-section nav {
   width: 100%;
   display: flex;
-  flex-direction: baseline;
+  flex-direction: row;
   justify-content: space-around;
   align-items: baseline;
   font-size: 1.6rem;
@@ -202,6 +202,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro img {
+  border-radius: 1rem;
 }
 .home .intro h2 {
   padding: 15px;
@@ -244,6 +247,17 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 40%;
+  padding: 1rem;
+  background-color: #22283A;
+  color: #F1F1F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  border-radius: 1rem;
 }
 .home .walk .walk-img {
   width: 46%;
