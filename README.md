@@ -32,9 +32,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+* * *
+
 1. What is the difference between an adaptive website and a fully responsive website?
 
+- Adaptive uses breakpoints and adapts to different screen sizes but is not fluid. A fully responsive website will be adaptive AND use fluid, responsive units to respond to screen size at any time.
+* * *
+
 2. Describe what it means to be mobile first vs desktop first.
+
+- Mobile first is a term for initially building your website in a 'mobile view', then using breakpoints that scale UP to larger screens. Mobile first will use 'min-width' breakpoints.
+- Desktop first is the opposite. The inital style will fit a larger screen and break points will become smaller using 'max-width' media queries.
+* * *
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
