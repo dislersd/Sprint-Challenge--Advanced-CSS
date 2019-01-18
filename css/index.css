@@ -310,12 +310,17 @@ footer {
   align-items: center;
   font-size: 2rem;
   border-radius: 1rem;
+  cursor: pointer;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
     padding: 2rem;
   }
+}
+.home .walk .walk-text .btn:hover {
+  background-color: #F1F1F1;
+  color: #22283A;
 }
 .home .walk .walk-img {
   width: 46%;

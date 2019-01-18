@@ -108,10 +108,16 @@
         align-items: center;
         font-size: @m;
         border-radius: 1rem;
+        cursor: pointer;
 
         @media @phone {
           width: 100%;
           padding: 2rem;
+        }
+
+        &:hover {
+          background-color: @sea-shell;
+          color: @btn-bg-color;
         }
 
       }
