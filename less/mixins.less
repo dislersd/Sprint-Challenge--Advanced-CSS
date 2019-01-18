@@ -1,1 +1,12 @@
 // Mixins Here
+.flex-custom(@direction, @justify, @align) {
+  display: flex;
+  flex-direction: @align;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.linkNormalize (@color) {
+  text-decoration: none;
+  color: @color;
+}
