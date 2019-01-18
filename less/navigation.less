@@ -19,6 +19,7 @@
     
     a {
       .linkNormalize(@header-font-color);
+      white-space: nowrap;
     }
   
   }
@@ -30,6 +31,10 @@
   .nav {
     margin: 0 auto;
     width: 50%;
+
+    @media @phone {
+      width: 100%;
+    }
   }
 
 }
