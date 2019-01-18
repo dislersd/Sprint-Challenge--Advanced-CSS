@@ -47,9 +47,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+- This sets the root font size equal to 10px when you use 'rem' units. ie: 2.5rem == 25px. 
+* * *
+
 4. How would you describe preprocessing to someone new to CSS?
 
+- Preprocessing is a way to enhance how you can write css code. The syntax is different than normal css. Preprocessing allows you to do things like creating variables to use throughout your css, nesting selectors, and storing multiple style elements in one variable (these are called mixins). Preprocessing compiles your code to normal css.
+* * *
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+- My favorite concept is mixins because it helps to stay DRY when coding.
+- Nesting has given me the most trouble becuase sometimes I get lost where my code is nested.
+* * *
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
